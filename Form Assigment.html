@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgba(47, 79, 79, 1);">
+<form action="">
+<fieldset style="background-color: rgb(46, 110, 110);"> 
+    <legend>Personal Description</legend> 
+    <fieldset style="background-color: rgb(95, 158, 160);">
+        <legend style="line-height: 4; background-color: rgb(62, 133, 139);"><p style="text-align: center;"> Your name </p></legend>
+<table>
+    <tbody>
+        <tr>
+        <td style="width: 80px"> <label for="FirstName"> First Name </label> </td>
+        <td> <span>:</span> <input type="text" id="FirstName" placeholder="Ex.Mohamed" required> </td>
+        </tr>
+        <br>
+    <br>
+    <tr>
+    <td style="width: 100px" > <label for="SecondName"> Second Name </label> </td>
+    <td> <span>:</span>  <input type="text" id="SecondName" placeholder="Ex.Hashem" required></td>
+    </tr>
+    </tbody>
+    </table>
+    </fieldset>
+<br>
+<br>
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <label for="Phone"> Your phone </label>
+            </td>
+
+            <td>
+                <span>:</span> <input type="tel" id="Phone" name="Phone" maxlength="11">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <span>:</span> <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <span>:</span> <input type="password" id="password" name="email" maxlength="16">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="re password"> Re Password:</label>
+            </td>
+            <td>
+                <span>:</span> <input type="password" id="re password" name="email" maxlength="16">
+            </td>
+        </tr>
+
+    </tbody>
+    
+</table>
+    <br>
+<br>
+    <input type="radio" name="gender" value="Male">
+<label for="Male"> Male </label>
+<br>
+    <input type="radio" name="gender" value="female">
+<label for="female"> Female </label>
+<br>
+<br>
+    <input type="checkbox" name="Education" value="Student">
+<label for="Student"> Student </label>
+<br>
+    <input type="checkbox" name="Education" value="Graduated">
+<label for="Graduated"> Graduated </label>
+<br>
+<br>
+<label for="University"> University </label>
+<select name="University" id="University">
+    <option value="AUC" selected>AUC</option>
+    <option value="GUC">GUC</option>
+    <option value="MSA">MSA</option>
+    <option value="BUE">BUE</option>
+</select>
+<br>
+<br>
+<button type="submit"> Submit </button>
+</fieldset>
+</form>
+
+
+</body>
+
+</html>
